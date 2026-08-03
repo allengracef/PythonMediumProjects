@@ -4,7 +4,7 @@ def binary_search(num,target):
 
     while l <= r:
 
-        mid = l + (r - l)//2
+        mid = l + (r - l)// 2
 
         if num[mid] == target:
             print(f"Target found at: {mid}")
