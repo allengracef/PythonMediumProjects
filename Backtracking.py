@@ -10,6 +10,4 @@ class Solution(object):
             path.pop()
 
             back(index+1,path)
-
-        back(0,[])
         return result

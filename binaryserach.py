@@ -7,7 +7,6 @@ def binary_search(num,target):
         mid = l + (r - l)// 2
 
         if num[mid] == target:
-            print(f"Target found at: {mid}")
             return mid
 
         if num[mid] > target:
@@ -17,4 +16,4 @@ def binary_search(num,target):
         else:
             return mid
 num = [4,23,34,39,44,49,59,78,88]
-binary_search(num,39)
+binary_search(num,88)
